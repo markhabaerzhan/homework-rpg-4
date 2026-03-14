@@ -5,7 +5,6 @@ public class ShadowEffect implements EffectImplementor {
     public int computeDamage(int basePower) {
         return Math.max(0, (int) Math.round(basePower * 1.3));
     }
-
     @Override
     public String getEffectName() {
         return "Shadow";
