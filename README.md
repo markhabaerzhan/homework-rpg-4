@@ -37,9 +37,17 @@ javac -d out $(find src -name "*.java")
 java -cp out com.narxoz.rpg.Main
 ```
 
+### Bridge
+![Bridge](diagrams/BridgePattern.png)
+
+### Composite
+![Composite](diagrams/CompositePattern.png)
+
 ## Deliverables
 - Completed Java code
 - UML diagrams (2)
 - Clear console output from demo
+
+
 
 Read `ASSIGNMENT.md` for full instructions and rubric.
