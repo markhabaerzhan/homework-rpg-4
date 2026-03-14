@@ -43,6 +43,9 @@ java -cp out com.narxoz.rpg.Main
 ### Composite
 ![Composite](diagrams/CompositePattern.png)
 
+### Ссылка на код
+https://github.com/markhabaerzhan/homework-rpg-4.git
+
 ## Deliverables
 - Completed Java code
 - UML diagrams (2)
