@@ -12,22 +12,17 @@ public abstract class Skill {
         this.basePower = basePower;
         this.effect = effect;
     }
-
     public String getSkillName() {
         return skillName;
     }
-
     public int getBasePower() {
         return basePower;
     }
-
     public String getEffectName() {
         return effect.getEffectName();
     }
-
     protected int resolvedDamage() {
         return effect.computeDamage(basePower);
     }
-
     public abstract void cast(CombatNode target);
 }
